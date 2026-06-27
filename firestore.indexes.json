@@ -1,0 +1,30 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "preorders",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "venue_id", "order": "ASCENDING" },
+        { "fieldPath": "service_date", "order": "ASCENDING" },
+        { "fieldPath": "service_time_slot", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "preorders",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "standing_order", "order": "ASCENDING" },
+        { "fieldPath": "service_date", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "guests",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "cabin_number", "order": "ASCENDING" },
+        { "fieldPath": "last_name", "order": "ASCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
