@@ -24,7 +24,7 @@ export function Layout() {
       {/* Sidebar */}
       <aside className="w-56 bg-brand-900 text-white flex flex-col shrink-0">
         <div className="px-5 py-6 border-b border-brand-700">
-          <h1 className="text-lg font-bold tracking-wide">Nocturne Order</h1>
+          <h1 className="text-base font-bold tracking-wide leading-tight">Nocturne Pre-Order Management</h1>
           <p className="text-xs text-brand-100 mt-0.5 truncate">{user?.username}</p>
           <span className="inline-block mt-1 text-[10px] uppercase tracking-widest bg-brand-700 rounded px-1.5 py-0.5">
             {user?.role}

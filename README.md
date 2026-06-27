@@ -1,4 +1,4 @@
-# Nocturne Order
+# Nocturne Pre-Order Management
 
 Web-based cruise ship restaurant pre-order management system. Replaces the SpeSync desktop app suite with a Firebase-powered web application accessible from any device.
 

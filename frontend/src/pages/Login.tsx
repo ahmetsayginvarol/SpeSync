@@ -34,8 +34,8 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-brand-900">
       <div className="bg-white rounded-2xl shadow-xl w-full max-w-sm p-8">
-        <h1 className="text-2xl font-bold text-brand-900 mb-1">Nocturne Order</h1>
-        <p className="text-sm text-gray-500 mb-7">Restaurant pre-order system</p>
+        <h1 className="text-2xl font-bold text-brand-900 mb-1">Nocturne Pre-Order Management</h1>
+        <p className="text-sm text-gray-500 mb-7">Cruise ship dining pre-order system</p>
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
